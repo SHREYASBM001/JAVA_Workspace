@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<colorTheme ect-id="63d6a50b-371f-4211-9025-9bfea76cc850" name="Darcula" author="Eclipse Themes" website="" type="dark" modified="2025-09-30T10:46:19.898Z">
+
+    <!-- Core Editor UI -->
+    <background color="#2B2B2B"/>
+    <currentLine color="#323232"/>
+    <foreground color="#A9B7C6"/>
+    <lineNumber color="#606366"/>
+    <selectionBackground color="#214283"/>
+    <selectionForeground color="#A9B7C6"/>
+
+    <!-- Editor Highlights & Features -->
+    <filteredSearchResult color="#32593D"/>
+    <findScope color="#32593D"/>
+    <occurrence color="#344134"/>
+    <searchResult color="#32593D"/>
+    <writeOccurrence color="#40332B"/>
+
+    <!-- Source Control (Diff) -->
+    <removedLine color="#F50000"/>
+
+    <!-- Diagnostics & Status -->
+    <deprecated color="#A9B7C6" strikethrough="true"/>
+
+    <!-- Comments & Documentation -->
+    <comment color="#808080" italic="true"/>
+    <doc color="#629755" italic="true"/>
+    <docLink color="#287BDE"/>
+    <docTag color="#629755" bold="true"/>
+    <docXmlTag color="#629755" bold="true"/>
+    <multiLineComment color="#808080" italic="true"/>
+    <taskTag color="#629755" bold="true"/>
+
+    <!-- Syntax: Keywords & Operators -->
+    <bracket color="#A9B7C6"/>
+    <keyword color="#CC7832" bold="true"/>
+    <operator color="#A9B7C6"/>
+
+    <!-- Syntax: Literals (Strings, Numbers) -->
+    <number color="#6897BB"/>
+    <string color="#6A8759"/>
+
+    <!-- Syntax: Variables & Identifiers -->
+    <argument color="#A9B7C6"/>
+    <constant color="#9876AA" bold="true"/>
+    <field color="#9876AA"/>
+    <localVariable color="#A9B7C6"/>
+    <localVariableDeclaration color="#A9B7C6"/>
+    <staticField color="#9876AA" italic="true"/>
+
+    <!-- Syntax: Functions & Methods -->
+    <abstractMethod color="#FFC66D" italic="true"/>
+    <inheritedMethod color="#FFC66D"/>
+    <method color="#FFC66D"/>
+    <methodDeclaration color="#FFC66D"/>
+    <staticMethod color="#FFC66D" italic="true"/>
+
+    <!-- Syntax: Types & Structures -->
+    <abstractClass color="#FFC66D"/>
+    <class color="#FFC66D"/>
+    <enum color="#FFC66D"/>
+    <interface color="#FFC66D"/>
+
+    <!-- Syntax: Meta & Advanced Constructs -->
+    <annotation color="#BBB529"/>
+    <templateArgument color="#20999D"/>
+    <templateParameter color="#20999D"/>
+
+    <!-- Markup (XML/HTML) -->
+    <xmlAttribute color="#BABABA"/>
+    <xmlTag color="#E8BF6A"/>
+</colorTheme>

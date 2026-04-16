@@ -1,0 +1,10 @@
+package com.logica;
+
+public class PrintSecondLargestPrime {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

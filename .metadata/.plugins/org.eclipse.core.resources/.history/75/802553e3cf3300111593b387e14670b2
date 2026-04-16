@@ -1,0 +1,26 @@
+package com.stringconcepts;
+
+public class P1 {
+
+	public static void main(String[] args) {
+		String s="aabbiwi9797abc15628bcddd";
+		String s1="";
+		char[] ch=s.toCharArray();
+		String temp="";
+		int count =1;
+		int i=0;
+		while(i<ch.length) {
+			char c=ch[i];
+			temp=c+"";
+			
+			if(!s1.contains(temp)) {
+			s1+=(s.length()-(s.replace(temp,"").length()))+""+temp; //for reference how it works
+			System.out.println(temp+":"+(s.length()-(s.replace(temp,"").length())));
+			}
+			i++;
+		}
+		System.out.println(s1);
+
+	}
+
+}

@@ -1,0 +1,20 @@
+package com.dsa.strings;
+
+public class PanagramRecursion {
+
+	public static void main(String[] args) {
+	String s="abcdefghijklmnopqrstuvwxyzzz";
+	System.out.print(isPanagram(s.toLowerCase(),'z'));
+	}
+	
+	static boolean isPanagram(String s,char c) {
+		if(s.length()<26) return false;
+		if(c=='a' && s.contains(c+"")) {
+			return true;
+		}
+		else return false;
+		
+		return isPanagram(s,c--);
+	}
+
+}

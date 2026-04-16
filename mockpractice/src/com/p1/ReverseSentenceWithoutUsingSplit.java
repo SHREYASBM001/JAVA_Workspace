@@ -1,0 +1,28 @@
+package com.p1;
+
+public class ReverseSentenceWithoutUsingSplit {
+
+	public static void main(String[] args) {
+		String s="JAVA is a very very EASY";
+		char[] ch=s.toCharArray();
+		String s1="";
+		String temp="";
+		int i=0;
+		
+		while(i<ch.length) {
+			
+			while(i<ch.length && ch[i]!= ' '){
+				temp+=ch[i]+"";
+				i++;
+			}
+
+			s1=temp+" "+s1;
+			i++;
+			temp="";
+			
+		}
+		System.out.println(s1.trim());
+
+	}
+
+}

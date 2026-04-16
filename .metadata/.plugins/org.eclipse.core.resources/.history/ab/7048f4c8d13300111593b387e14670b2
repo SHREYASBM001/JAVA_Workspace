@@ -1,0 +1,28 @@
+package com.p1;
+
+public class DSA {
+// NOTE: THIS WONT WORK FOR STRINGS LIKE :"HHHAAJJHHAA1313B1B"
+	public static void main(String[] args) {
+		String s="HHHAAJJHHAA1313B1B";
+		char[] ch=s.toCharArray();
+		int count=1;
+	
+		int i=0;
+		String s2="";
+		while(i<ch.length) {
+			char c=ch[i];
+			char fin=c;
+			i++;
+			while(i<ch.length && ch[i]==c) {
+				count++;
+				i++;
+			}
+			s2+=""+count+fin;
+			count=1;
+		}
+		System.out.println(s2);
+		
+
+	}
+
+}

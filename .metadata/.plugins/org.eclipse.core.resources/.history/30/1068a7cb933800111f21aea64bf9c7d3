@@ -1,0 +1,9 @@
+package com.dsa.strings;
+
+public class PrintSecondMinOccuredCharacter {
+
+	public static void main(String[] args) {
+		String s="jjaaava";
+	}
+
+}

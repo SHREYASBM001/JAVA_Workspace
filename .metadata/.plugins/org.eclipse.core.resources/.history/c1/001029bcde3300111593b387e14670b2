@@ -1,0 +1,18 @@
+package com.p1;
+
+public class CountWordsInASentenceWithoutUsingSplit {
+
+	public static void main(String[] args) {
+		String s="JAVA is a Very Very EASY";
+		char[] ch=s.toCharArray();
+		String temp="";
+		int count=0;
+		if(!(s.equals(""))) count=1;
+		int i=0;
+		while(i<ch.length ){
+			
+		}
+
+	}
+
+}

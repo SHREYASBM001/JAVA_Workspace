@@ -1,0 +1,39 @@
+package com.dsa.strings;
+
+public class PrintSmallestPalindromeSubstring {
+
+	public static void main(String[] args) {
+		String s="aabbb";
+		int max=s.length();
+		String s1="";
+		
+		for(int i=0;i<s.length();i++) {
+			for(int j=i+1;j<s.length();j++) {
+				
+				if(isPal(s.substring(i,j+1))) {
+					if(s.substring(i,j+1).length()<max) {
+						s1=s.substring(i,j+1);
+						max=s1.length();
+					}
+					
+				}
+				
+			}
+		}
+		System.out.println(s1);
+
+	}
+	static boolean isPal(String s) {
+		int i=0;
+		char[] ch=s.toCharArray();
+		int j=s.length()-1;
+		while(i<j) {
+			if(ch[i]!=ch[j]) return false;
+			i++;
+			j--;
+			
+		}
+		return true;
+	}
+
+}

@@ -1,0 +1,32 @@
+package com.dsa.strings;
+
+public class PrintMinOccuredCharacter {
+
+	public static void main(String[] args) {
+		String s="cbbbbbbvaaaa";
+		int count=s.length();
+		String s1="";
+		int i=0;
+		String temp="";
+		while(i<s.length()) {
+			char c=s.charAt(i);
+			temp=s.charAt(i)+"";
+			i++;
+			while(i<s.length() && s.charAt(i)==c) {
+			temp+=s.charAt(i)+"";
+			i++;
+			}
+			
+			if(temp.length()<count) {
+				s1=temp;
+				count=s1.length();
+			}
+			temp="";
+			
+			
+		}
+		System.out.println(s1+":"+count);
+
+	}
+
+}

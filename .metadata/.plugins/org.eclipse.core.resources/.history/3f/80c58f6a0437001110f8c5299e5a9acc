@@ -1,0 +1,27 @@
+package com.dsa.strings;
+
+public class CountReapeatedCharacters {
+
+	public static void main(String[] args) {
+		String s="hello world";
+		//char[] ch=new char[s.length()];
+		String s1="";
+		int count=0;
+		for(int i=0;i<s.length();i++) {
+			for(int j=0;j<i;j++) {
+				if(s1.contains(s.charAt(i)+"") && s1.contains(s.charAt(i)+"")) {
+					count++;
+				}
+				
+			}
+			if(count==1) {
+				s1+=s.charAt(i);
+			}else {
+				s1+=count;
+			}
+			
+		}
+
+	}
+
+}

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<colorTheme ect-id="13c1a7d0-1c49-4ddd-ae7b-d3684c6286af" name="Dracula Theme" author="Ahmed Hatem" website="https://github.com/ahatem" type="dark" modified="2025-10-15T17:53:02.901Z">
+
+    <!-- Core Editor UI -->
+    <background color="#282a36"/>
+    <currentLine color="#44475a"/>
+    <foreground color="#f8f8f2"/>
+    <lineNumber color="#44475a"/>
+    <selectionBackground color="#666B87"/>
+    <selectionForeground color="#f8f8f2"/>
+
+    <!-- Editor Highlights & Features -->
+    <filteredSearchResult color="#44475a"/>
+    <findScope color="#44475a"/>
+    <occurrence color="#44475a" underline="true"/>
+    <searchResult color="#44475a"/>
+    <writeOccurrence color="#44475a" underline="true"/>
+
+    <!-- Source Control (Diff) -->
+    <removedLine color="#ffb86c"/>
+
+    <!-- Diagnostics & Status -->
+    <deprecated color="#ffb86c" strikethrough="true"/>
+
+    <!-- Comments & Documentation -->
+    <comment color="#6272a4"/>
+    <doc color="#6272a4"/>
+    <docLink color="#8be9fd" underline="true"/>
+    <docTag color="#8be9fd"/>
+    <docXmlTag color="#8be9fd"/>
+    <multiLineComment color="#6272a4"/>
+    <taskTag color="#8be9fd" underline="true"/>
+
+    <!-- Syntax: Keywords & Operators -->
+    <bracket color="#f8f8f2"/>
+    <keyword color="#ff79c6"/>
+    <operator color="#8be9fd"/>
+
+    <!-- Syntax: Literals (Strings, Numbers) -->
+    <number color="#ff79c6"/>
+    <string color="#f1fa8c"/>
+
+    <!-- Syntax: Variables & Identifiers -->
+    <argument color="#79ABFF"/>
+    <constant color="#bd93f9"/>
+    <field color="#f8f8f2"/>
+    <localVariable color="#f8f8f2"/>
+    <localVariableDeclaration color="#ff79c6"/>
+    <staticField color="#f8f8f2"/>
+
+    <!-- Syntax: Functions & Methods -->
+    <abstractMethod color="#50fa7b"/>
+    <inheritedMethod color="#50fa7b"/>
+    <method color="#50fa7b"/>
+    <methodDeclaration color="#50fa7b"/>
+    <staticMethod color="#50fa7b"/>
+
+    <!-- Syntax: Types & Structures -->
+    <class color="#8be9fd"/>
+    <enum color="#bd93f9"/>
+    <interface color="#8be9fd"/>
+
+    <!-- Syntax: Meta & Advanced Constructs -->
+    <annotation color="#50fa7b"/>
+    <templateArgument color="#8be9fd"/>
+    <templateParameter color="#ffb86c"/>
+</colorTheme>

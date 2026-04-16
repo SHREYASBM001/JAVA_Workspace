@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 2 elements to &apos;Logic/src/com.mock1.logics&apos;&#x0D;&#x0A;- Original project: &apos;Logic&apos;&#x0D;&#x0A;- Destination element: &apos;Logic/src/com.mock1.logics&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     com.mock1.PrintNNumbers.java&#x0D;&#x0A;     com.mock1.SumOfNNumbers.java&#x0D;&#x0A;- Update references to refactored element" description="Move compilation units" destination="/src&lt;com.mock1.logics" element1="/src&lt;com.mock1{PrintNNumbers.java" element2="/src&lt;com.mock1{SumOfNNumbers.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1775460952596" units="2" version="1.0"/>
+</session>

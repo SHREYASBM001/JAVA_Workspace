@@ -1,0 +1,13 @@
+AbstractTextEditor.Color.Background=28,28,28
+AbstractTextEditor.Color.Background.SystemDefault=false
+AbstractTextEditor.Color.SelectionBackground.SystemDefault=false
+AbstractTextEditor.Color.SelectionForeground.SystemDefault=false
+LSP4EReadOccurrenceIndicationColor=43,43,43
+LSP4ETextOccurrenceIndicationColor=43,43,43
+LSP4EWriteOccurrenceIndicationColor=43,43,43
+TextOccurrenceIndicationColor=43,43,43
+currentIPIndication=43,43,43
+eclipse.preferences.version=1
+matchingBracketsColor=169,183,198
+org.eclipse.cdt.ui.writeOccurrenceIndicationColor=43,43,43
+secondaryIPIndication=43,43,43

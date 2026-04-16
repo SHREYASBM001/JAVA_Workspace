@@ -1,0 +1,18 @@
+package com.regex;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class Palindrome {
+
+	public static void main(String[] args) {
+		String s="malayalam";
+		Pattern p=Pattern.compile("([a-z])([a-z])\\1");
+		Matcher m=p.matcher(s);
+		while(m.find()) {
+			System.out.println(m.group());
+		}
+
+	}
+
+}

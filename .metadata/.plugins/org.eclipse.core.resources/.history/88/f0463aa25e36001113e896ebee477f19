@@ -1,0 +1,23 @@
+package com.dsa.strings;
+
+public class PrintMaxOccuredCharacter {
+
+	public static void main(String[] args) {
+		String s="jvaaaa";
+		int count=1;
+		String s1="";
+		int i=0;
+		while(i<s.length()) {
+			char c=s.charAt(i);
+			if(s.replace(c+"","").length()>count) {
+				s1=c+""+count;
+				count=s.replace(c+"","").length()-s1.length();
+			}
+			i++;
+			
+		}
+		System.out.println(s1);
+
+	}
+
+}

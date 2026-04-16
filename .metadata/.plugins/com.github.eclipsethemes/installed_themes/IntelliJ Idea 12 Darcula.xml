@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<colorTheme author="Sergey" id="1758274200193" name="IntelliJ Idea 12 Darcula" ect-id="504e2772-6ce3-40bc-a429-fd47d4035627">
+
+    <!-- Core Editor UI -->
+    <background color="#2B2B2B"/>
+    <commentTaskTag color="#619647" bold="false" italic="false" underline="false" strikethrough="false"/>
+    <currentLine color="#323232"/>
+    <deletionIndication color="#D25252" bold="false" italic="false" underline="false" strikethrough="false"/>
+    <deprecatedMember color="#D25252" bold="false" italic="false" underline="false" strikethrough="true"/>
+    <filteredSearchResultIndication color="#000000"/>
+    <foreground color="#A9B7C6"/>
+    <javadoc color="#619647" bold="false" italic="false" underline="false" strikethrough="false"/>
+    <javadocKeyword color="#619647" bold="false" italic="false" underline="false" strikethrough="false"/>
+    <javadocLink color="#619647" bold="false" italic="false" underline="false" strikethrough="false"/>
+    <javadocTag color="#619647" bold="false" italic="false" underline="false" strikethrough="false"/>
+    <lineNumber color="#A9B7C6"/>
+    <occurrenceIndication color="#000000"/>
+    <parameterVariable color="#A9B7C6" bold="false" italic="false" underline="false" strikethrough="false"/>
+    <searchResultIndication color="#000000"/>
+    <selectionBackground color="#214283"/>
+    <selectionForeground color="#A9B7C6"/>
+    <singleLineComment color="#808080" bold="false" italic="false" underline="false" strikethrough="false"/>
+    <sourceHoverBackground color="#000000"/>
+    <staticFinalField color="#9876AA" bold="false" italic="true" underline="false" strikethrough="false"/>
+    <typeArgument color="#808080" bold="false" italic="false" underline="false" strikethrough="false"/>
+    <typeParameter color="#808080" bold="false" italic="false" underline="false" strikethrough="false"/>
+    <writeOccurrenceIndication color="#000000"/>
+
+    <!-- Editor Highlights & Features -->
+    <findScope color="#111111"/>
+
+    <!-- Comments & Documentation -->
+    <multiLineComment color="#619647" bold="false" italic="false" underline="false" strikethrough="false"/>
+
+    <!-- Syntax: Keywords & Operators -->
+    <bracket color="#A9B7C6" bold="false" italic="false" underline="false" strikethrough="false"/>
+    <keyword color="#CB772F" bold="false" italic="false" underline="false" strikethrough="false"/>
+    <operator color="#A9B7C6" bold="false" italic="false" underline="false" strikethrough="false"/>
+
+    <!-- Syntax: Literals (Strings, Numbers) -->
+    <number color="#6897BB" bold="false" italic="false" underline="false" strikethrough="false"/>
+    <string color="#A5C25C" bold="false" italic="false" underline="false" strikethrough="false"/>
+
+    <!-- Syntax: Variables & Identifiers -->
+    <constant color="#9876AA" bold="false" italic="false" underline="false" strikethrough="false"/>
+    <field color="#9876AA" bold="false" italic="false" underline="false" strikethrough="false"/>
+    <localVariable color="#7E7E7E" bold="false" italic="false" underline="false" strikethrough="false"/>
+    <localVariableDeclaration color="#A9B7C6" bold="false" italic="false" underline="false" strikethrough="false"/>
+    <staticField color="#9876AA" bold="false" italic="false" underline="false" strikethrough="false"/>
+
+    <!-- Syntax: Functions & Methods -->
+    <abstractMethod color="#BED6FF" bold="false" italic="false" underline="false" strikethrough="false"/>
+    <inheritedMethod color="#BED6FF" bold="false" italic="false" underline="false" strikethrough="false"/>
+    <method color="#A9B7C6" bold="false" italic="false" underline="false" strikethrough="false"/>
+    <methodDeclaration color="#FFC66D" bold="false" italic="false" underline="false" strikethrough="false"/>
+    <staticMethod color="#BED6FF" bold="false" italic="false" underline="false" strikethrough="false"/>
+
+    <!-- Syntax: Types & Structures -->
+    <class color="#A9B7C6" bold="false" italic="false" underline="false" strikethrough="false"/>
+    <enum color="#7FB347" bold="false" italic="false" underline="false" strikethrough="false"/>
+    <interface color="#A9B7C6" bold="false" italic="false" underline="false" strikethrough="false"/>
+
+    <!-- Syntax: Meta & Advanced Constructs -->
+    <annotation color="#A9B7C6" bold="false" italic="false" underline="false" strikethrough="false"/>
+</colorTheme>

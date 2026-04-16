@@ -1,0 +1,11 @@
+package com.p1;
+
+public class StringSplitSentence {
+
+	public static void main(String[] args) {
+		String s="JAVA IS EASY";
+		String[] str=s.split(" ");
+
+	}
+
+}
