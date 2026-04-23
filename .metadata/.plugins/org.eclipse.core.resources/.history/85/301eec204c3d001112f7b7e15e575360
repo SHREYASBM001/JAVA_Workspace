@@ -1,0 +1,13 @@
+package com.empty;
+
+
+public class EmployeeTest {
+
+	public static void main(String[] args) {
+		Employee e1=new Employee("ahreyas",69);
+		Employee e2=new Employee("ahrey",67);
+		System.out.println(e1.compareTo(e2));
+
+	}
+
+}

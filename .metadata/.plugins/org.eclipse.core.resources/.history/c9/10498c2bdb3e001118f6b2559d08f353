@@ -1,0 +1,31 @@
+package com.empty;
+
+public class SminOC {
+
+	public static void main(String[] args) {
+		System.out.println(sminOC("jjaaabbb"));
+
+	}
+	static String sminOC(String s) {
+		String s1=""; int m1=s.length();
+		String s2=""; int m2=s.length();
+		int i=0;
+		while(i<s.length()) {
+			char c=s.charAt(i);
+			int count =s.length()-s.replace(c+"","").length();
+			if(count<m2 && !s1.contains(c+"")) {
+				s2=c+"";
+				m2=count;
+			}
+			if(count<m1 ) {
+				m2=m1;
+				m1=count;
+				s2=s1;
+				s1=c+"";
+			}
+			i++;
+		}
+		return s2+":"+m2;
+		
+	}
+}

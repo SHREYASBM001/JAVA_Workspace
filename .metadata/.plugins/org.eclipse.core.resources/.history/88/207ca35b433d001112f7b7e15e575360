@@ -1,0 +1,15 @@
+package com.arrayofobjects;
+
+public class Circle implements Comparable {
+	int radius;
+Circle(int r){
+	radius=r;
+}
+public int compareTo(Object o) {
+	return radius-((Circle)o).radius;
+			
+}
+public static void sort(Circle[] c) {
+	
+}
+}

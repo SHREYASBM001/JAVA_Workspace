@@ -1,0 +1,13 @@
+package com.empty;
+
+public class StringEncDec {
+
+	public static void main(String[] args) {
+		String enc=encode("xyz",3);
+		String dec=decode(enc,3);
+
+	}
+	static String encode(String s) {
+		
+	}
+}

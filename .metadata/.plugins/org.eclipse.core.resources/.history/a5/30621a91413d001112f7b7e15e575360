@@ -1,0 +1,26 @@
+package com.arrayofobjects;
+
+
+class Circles {
+
+	
+		void m1() {
+			System.out.println("m1");
+		}
+		
+	
+
+}
+public class Demo {
+	public static void main(String []  args) {
+		Circle[] c=new Circle[5];
+		c[0]=new Circle();
+		c[1]=new Circle();
+		c[2]=new Circle();
+		c[3]=new Circle();
+		c[4]=new Circle();
+		for(Circle temp:c) {
+			temp.m1();
+		}
+	}
+}

@@ -1,0 +1,15 @@
+package com.empty;
+
+public class Factory {
+static Factory f;
+private Factory() {
+	
+}
+public static Factory getInstance() {
+	if(f!=null) {
+		f=new Factory();
+		return f;
+	}
+	
+}
+}

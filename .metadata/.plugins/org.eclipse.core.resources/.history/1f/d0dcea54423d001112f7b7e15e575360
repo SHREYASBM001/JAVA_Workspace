@@ -1,0 +1,15 @@
+package com.arrayofobjects;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Circle[] c=new Circle[3];
+		c[0]=new Circle(1);
+		c[1]=new Circle(2);
+		c[2]=new Circle(3);
+		System.out.println(c[0].compareTo(c[1]));
+		System.out.println(c[1].compareTo(c[3]));
+
+	}
+
+}

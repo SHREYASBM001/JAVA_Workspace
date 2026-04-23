@@ -1,0 +1,20 @@
+package com.empty;
+
+public class AppearOnlyOnce {
+
+	public static void main(String[] args) {
+		prints(new int[] {1,2,4,2,4,1,8});
+
+	}
+	static void prints(int[] arr) {
+		for(int i=0;i<arr.length;i++) {
+			boolean flag=true;
+			for(int j=i+1;j<arr.length;j++) {
+				if(arr[i]==arr[j]) {
+					flag=false;
+				}
+			}
+			if(flag) System.out.println(arr[i]);
+		}
+	}
+}

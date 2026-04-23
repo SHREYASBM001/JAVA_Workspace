@@ -1,0 +1,21 @@
+package com.empty;
+
+public class InitCap {
+
+	public static void main(String[] args) {
+		System.out.println(initcap("java is very easy"));
+	}
+	static String initcap(String s) {
+		char[] ch=s.toCharArray();
+		int i=0;
+		while(i<s.length()) {
+			char c =ch[i];
+			if(Character.isLowerCase(c)) {
+			if(i==0 || (s.charAt(i-1)==' ')) {
+				ch[i]=(char)(c-32);
+			}
+			}
+		}
+	}
+
+}

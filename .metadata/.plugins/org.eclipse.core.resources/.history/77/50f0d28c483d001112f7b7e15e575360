@@ -1,0 +1,11 @@
+package com.empty;
+
+public class ArrayCopyTest {
+
+	public static void main(String[] args) {
+		int[] arr= {1,4,23,2,6,2};
+		System.arraycopy(arr2,2, arr, 3, 2);
+
+	}
+
+}

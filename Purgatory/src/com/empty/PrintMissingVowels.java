@@ -1,0 +1,27 @@
+package com.empty;
+
+public class PrintMissingVowels {
+
+	public static void main(String[] args) {
+		System.out.println(prints("india"));
+
+	}
+	static String prints(String s) {
+		String vowels="aeiou";
+		String s1="";
+		int i=0;
+		while(i<vowels.length()) {
+			char c=vowels.charAt(i);
+			if(!s.contains(c+"")) {
+				s1+=c+"";
+				if(i!=s.length()-1) {
+					s1+=",";
+				}
+			}
+			i++;
+		}
+		return s1;
+	}
+	
+
+}

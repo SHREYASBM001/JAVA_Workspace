@@ -1,0 +1,11 @@
+package com.arrayofobjects;
+
+
+public class Circle {
+
+	
+		Circle[] c=new Circle[5];
+		
+	
+
+}

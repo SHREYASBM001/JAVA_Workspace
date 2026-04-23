@@ -1,0 +1,19 @@
+package com.arrayofobjects;
+
+
+public class Circle {
+
+	
+		void m1() {
+			System.out.println("m1");
+		}
+		
+	
+
+}
+class Demo {
+	public static void main(String []  args) {
+		Circle[] c=new Circle[5];
+		
+	}
+}

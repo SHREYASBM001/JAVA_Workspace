@@ -1,0 +1,10 @@
+package com.empty;
+
+class Test {
+
+	int test_marks;
+
+}
+class Exam extends Test {
+	
+}

@@ -1,0 +1,27 @@
+package com.empty;
+
+public class Factory {
+static FactoryTest f;
+private Factory() {
+	
+}
+static FactoryTest getInstance() {
+	if(f!=null) {
+		f=new FactoryTest();
+		return f;
+	} else return f;
+	
+}
+}
+public class FactoryTest {
+	public static void main(String [] args) {
+		FactoryTest f=FactoryTest.getInstance();
+		
+		FactoryTest f1=FactoryTest.getInstance();
+		FactoryTest f2=FactoryTest.getInstance();
+		System.out.println(f);
+		System.out.println(f1);
+		System.out.println(f2);
+		
+	}
+}

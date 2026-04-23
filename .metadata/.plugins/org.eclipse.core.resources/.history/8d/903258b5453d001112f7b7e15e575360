@@ -1,0 +1,13 @@
+package com.empty;
+
+class Test {
+
+	int test_marks;
+
+}
+class Exam extends Test {
+	int exam_marks;
+}
+class practice extends test {
+	int practice_marks;
+}

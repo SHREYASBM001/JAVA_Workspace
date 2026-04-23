@@ -1,0 +1,45 @@
+package com.empty;
+
+public class StringEncDec {
+
+	public static void main(String[] args) {
+		String enc=encode("xyz",3);
+		String dec=decode("abc",-3);
+		System.out.println(enc);
+		System.out.println(dec);
+
+	}
+	static String encode(String s,int shift) {
+		char[] ch=s.toCharArray();
+		for(int i=0;i<ch.length;i++) {
+			char c =ch[i];
+			if(c>='a' && c<='z') {
+				ch[i]=(char)((c+shift-'a')%26+'a');
+			}
+			else if(c>='A' && c<='Z') {
+				ch[i]=(char)((c+shift-'A')%26+'A');
+			}
+			else if(c>='0' && c<='9') {
+				ch[i]=(char)((c+shift-'0')%10+'0');
+			}
+		}
+		return new String(ch);
+	}
+	static String decode(String s,int shift) {
+	
+		char[] ch=s.toCharArray();
+		for(int i=0;i<ch.length;i++) {
+			char c =ch[i];
+			if(c>='a' && c<='z') {
+				ch[i]=(char)((c+shift-'a')%26+'a');
+			}
+			if(c>='A' && c<='Z') {
+				ch[i]=(char)((c+shift-'A')%26+'A');
+			}
+			if(c>='0' && c<='9') {
+				ch[i]=(char)((c+shift-'0')%10+'0');
+			}
+		}
+		return new String(ch);
+	}
+}

@@ -1,0 +1,26 @@
+package com.empty;
+
+public class CharArrayCountPg {
+
+	public static void main(String[] args) {
+		System.out.println("hello world");
+
+	}
+	static String mutate(String s) {
+		String s1="";
+		int i=0;
+		int[] fr=new int[256];
+		while(i<s.length()) {
+			char c=s.charAt(i);
+			fr[c]++;
+			
+			if(s.replace(c+"","").length()>1) {
+				s1+=fr[c]+"";
+			} else {
+				s1+=c+"";
+			}
+			i++;
+		}
+	}
+
+}

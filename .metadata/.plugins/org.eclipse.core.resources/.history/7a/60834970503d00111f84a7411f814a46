@@ -1,0 +1,12 @@
+package com.empty;
+
+public class pan {
+
+	public static void main(String[] args) {
+		System.out.println(is("abcdefghijklmnopqrstuvwxyz",'a'));
+
+	}
+	static boolean is(String s,char c) {
+		return
+	}
+}

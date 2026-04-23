@@ -1,0 +1,22 @@
+package com.empty;
+
+public class StringEncDec {
+
+	public static void main(String[] args) {
+		String enc=encode("xyz",3);
+		String dec=decode(enc,3);
+
+	}
+	static String encode(String s,int shift) {
+		char[] ch=s.toCharArray();
+		for(int i=0;i<ch.length;i++) {
+			char c =ch[i];
+			if(Character.isLowerCase(c+"")) {
+				ch[i]=(char)((c+shift+'a')%26+'a');
+			}
+			if(Character.isUpperCase(c+"")) {
+				ch[i]=(char)((c+shift+'A')%26+'A');
+			}
+		}
+	}
+}

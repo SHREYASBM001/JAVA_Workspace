@@ -1,0 +1,36 @@
+package nonprimitivecompare;
+
+import java.util.Arrays;
+
+class Emp implements Comparable {
+	String name;
+	double sal;
+	
+	Emp(String name,double sal){
+		this.name=name;
+		this.sal=sal;
+		
+	}
+	@Override
+	public int compareTo(Object o) {
+		return this.sal-((Emp)o).sal;
+	}
+	@Override
+	public String toString() {
+		return "Emp[name:"+name+" sal:"+sal+"]";
+	}
+	
+}
+public class Test {
+	public static void main(String [] o) {
+		Emp[] e=new Emp[3];
+		e[0]=new Emp("zaresh",37000);
+		e[1]=new Emp("suresh",26000);
+		e[2]=new Emp("nuresh",13000);
+		
+		Arrays.so(e);
+		for(Emp temp:e) {
+			System.out.println(temp);
+		}
+	}
+}

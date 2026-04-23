@@ -1,0 +1,17 @@
+package com.empty;
+
+public class InitCap {
+
+	public static void main(String[] args) {
+		System.out.println(initcap("java is very easy"));
+	}
+	static String initcap(String s) {
+		char[] ch=s.toCharArray();
+		int i=0;
+		while(i<s.length()) {
+			char c =s.charAt(i);
+			if(i==0 || (s.charAt(i-1)==' '))
+		}
+	}
+
+}

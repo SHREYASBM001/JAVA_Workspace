@@ -1,0 +1,33 @@
+package com.empty;
+
+public class ENCDEC {
+
+	public static void main(String[] args) {
+		String enc=encode("xyz789%$#",3);
+		String dec=decode(enc,3);
+		System.out.println("Encoded text:"+enc);
+		System.out.println("decoded text:"+dec);
+
+	}
+	static String encode(String s,int shift) {
+		char[] ch=s.toCharArray();
+		for(int i=0;i<ch.length;i++) {
+			char c =ch[i];
+			if(c>='a' && c<='z') {
+				ch[i]=(char)((((c+shift-'a')%26)+26)%26+'a');
+			}
+			else if(c>='A' && c<='Z') {
+				ch[i]=(char)((((c+shift-'A')%26)+26)%26+'A');
+			}
+			else if(c>='0' && c<='9') {
+				ch[i]=(char)((((c+shift-'0')%10)+10)%10+'0');
+			}
+			else
+				ch[i]=c;
+		}
+		return new String(ch);
+	}
+	static String decode(String s,int shift) {
+		return encode(s,-shift);
+	}
+}
