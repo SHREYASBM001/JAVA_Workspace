@@ -1,76 +1,30 @@
-1:21:44 Tab14 StartNav154 #typed
-1:21:44 Tab14 FinishNav154
-1:21:44 Tab14 PageLoad
-1:21:45 Tab14 StartNav155 #typed
-1:21:45 Tab14 FinishNav155
-1:21:45 Tab14 PageLoad
-1:21:45 Tab14 StartNav156 #typed
-1:21:45 Tab14 FinishNav156
-1:21:45 Tab14 PageLoad
-1:21:52 Tab14 StartNav157 #typed
-1:21:52 Tab14 FinishNav157
-1:21:52 Tab14 PageLoad
-1:22:02 Microsoft.NewBrowser_Popup
-1:22:02 Microsoft.BrowserList.AddBrowser
-1:22:02 Browser15 Insert active Tab15 at 0
-1:22:02 Tab15 StartNav158 #auto_toplevel
-1:22:02 Tab15 StartNav159 #typed
-1:22:03 Tab15 FinishNav158
-1:22:03 Tab15 PageLoad
-1:22:03 Tab15 FinishNav159
-1:22:03 Tab15 PageLoad
-1:22:03 Tab15 StartNav160 #typed
-1:22:03 Tab15 FinishNav160
-1:22:03 Tab15 PageLoad
-1:22:05 Tab15 StartNav161 #typed
-1:22:05 Tab15 FinishNav161
-1:22:05 Tab15 PageLoad
-1:22:13 Tab15 StartNav162 #typed
-1:22:13 Tab15 FinishNav162
-1:22:13 Tab15 PageLoad
-1:22:18 Tab15 StartNav163 #typed
-1:22:18 Tab15 FinishNav163
-1:22:18 Tab15 PageLoad
-1:22:20 Tab15 StartNav164 #typed
-1:22:20 Tab15 FinishNav164
-1:22:20 Tab15 PageLoad
-1:22:21 Tab15 StartNav165 #typed
-1:22:21 Tab15 FinishNav165
-1:22:21 Tab15 PageLoad
-1:22:24 Tab14 StartNav166 #typed
-1:22:24 Tab14 FinishNav166
-1:22:24 Tab14 PageLoad
-1:22:28 Tab15 StartNav167 #typed
-1:22:28 Tab15 FinishNav167
-1:22:28 Tab15 PageLoad
-1:22:31 Tab15 StartNav168 #typed
-1:22:31 Tab15 FinishNav168
-1:22:31 Tab15 PageLoad
-1:22:34 Tab15 StartNav169 #typed
-1:22:34 Tab15 FinishNav169
-1:22:34 Tab15 PageLoad
-1:22:39 Tab15 StartNav170 #typed
-1:22:39 Tab15 FinishNav170
-1:22:39 Tab15 PageLoad
-1:22:48 Tab15 StartNav171 #typed
-1:22:48 Tab15 FinishNav171
-1:22:48 Tab15 PageLoad
-1:23:06 Tab15 StartNav172 #typed
-1:23:06 Tab15 FinishNav172
-1:23:06 Tab15 PageLoad
-1:23:27 Tab14 StartNav173 #typed
-1:23:27 Tab14 FinishNav173
-1:23:27 Tab14 PageLoad
-1:23:35 Tab14 StartNav174 #typed
-1:23:35 Tab14 FinishNav174
-1:23:35 Tab14 PageLoad
-1:23:39 Tab14 StartNav175 #typed
-1:23:39 Tab14 FinishNav175
-1:23:39 Tab14 PageLoad
-1:24:26 Tab14 StartNav176 #typed
-1:24:27 Tab14 FinishNav176
-1:24:27 Tab14 PageLoad
-1:33:39 Tab14 StartNav177 #typed
-1:33:39 Tab14 FinishNav177
-1:33:39 Tab14 PageLoad
-1:33:41 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
+0:00:00 Microsoft.Shutdown.TabStripModel.CloseTabs_EdgeBeforeClosingAllTabs
+0:00:00 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl
+0:00:00 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_TabClosable
+0:00:00 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_ClosingAll
+0:00:00 Microsoft.Shutdown.TabStripModel.CloseWebContentses
+0:00:00 Microsoft.Shutdown.TabStripModel.CloseWebContentses_FastShutdown
+0:00:00 Microsoft.Shutdown.TabStripModel.ShouldRunUnloadListenerBeforeClosing_false
+0:00:00 Tab2 FinishNav2 ERR_ABORTED
+0:00:00 Tab2 RenderProcessGone
+0:00:00 Microsoft.UnloadController.ClearUnloadState
+0:00:00 Microsoft.Shutdown.TabStripModel.RunUnloadListenerBeforeClosing_false
+0:00:00 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_ClosedAll
+0:00:00 Microsoft.Shutdown.TabStripModel.SendDetachWebContentsNotifications
+0:00:00 Microsoft.UnloadController.ClearUnloadState
+0:00:00 Browser2 Close Tab2 at 0
+0:00:00 Tab2 WebContentsDestroyed
+0:00:00 Microsoft.UnloadController.TabStripEmpty
+0:00:00 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
+0:00:00 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
+0:00:00 Microsoft.Shutdown.OnWindowClosing
+0:00:00 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
+0:00:00 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
+0:00:00 Microsoft.Shutdown.OnWindowClosing_MaybeClearBrowsingDataOnExit
+0:00:00 Microsoft.Shutdown.OnWindowClosing_ClearBrowsingDataOnExitNotInProgress
+0:00:00 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
+0:00:00 Widget Closed: BrowserWidget
+0:00:00 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
+0:00:00 Microsoft.Shutdown.OnWindowClosing
+0:00:00 Microsoft.Shutdown.OnWindowClosing_DeleteScheduled
+0:00:00 Microsoft.Last_Browser_Removed
