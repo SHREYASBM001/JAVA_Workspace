@@ -1,8 +1,0 @@
-package com.arrayofobjects;
-
-public class Circle {
-	int radius;
-Circle(int r){
-	radius=r;
-}
-}
