@@ -4,9 +4,10 @@
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="sort(Object[])"/>
+		<item key="selection" value="compareTo"/>
 		<list key="findhistory">
 			<item value="compareTo"/>
+			<item value="append"/>
 		</list>
 		<list key="replacehistory">
 		</list>
